@@ -3,7 +3,8 @@ radio.onReceivedNumber(function (receivedNumber) {
     GAME()
 })
 input.onButtonPressed(Button.A, function () {
-    ALICE = randint(1, 10)
+    ALICE = randint(1, 9)
+    LAST = ALICE
     radio.sendNumber(ALICE)
     GAME()
 })
@@ -11,6 +12,9 @@ function START () {
     ALICE = 0
     BOB = 0
 }
+input.onButtonPressed(Button.B, function () {
+    basic.showString("" + (LAST))
+})
 function GAME () {
     if (ALICE == 0) {
         basic.showString("?")
@@ -33,6 +37,7 @@ function GAME () {
         START()
     }
 }
+let LAST = 0
 let ALICE = 0
 let BOB = 0
 radio.setGroup(1)
