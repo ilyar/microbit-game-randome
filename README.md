@@ -1,5 +1,9 @@
+<div align='center'>
+<h1>Microbit Game Randome</h1>
+</div>
 
-> Open this page at [https://ilyar.github.io/microbit-game-randome/](https://ilyar.github.io/microbit-game-randome/)
+- [Play online](https://makecode.microbit.org/01853-38842-17640-76933)
+- [Documentation](https://ilyar.github.io/microbit-game-randome/)
 
 ## Use as Extension
 
