@@ -2,7 +2,7 @@
 <h1>Microbit Game Randome</h1>
 </div>
 
-- [Play online](https://makecode.microbit.org/01853-38842-17640-76933)
+- [Play online](https://makecode.microbit.org/72282-80185-05125-50039)
 - [Documentation](https://ilyar.github.io/microbit-game-randome/)
 
 ## Use as Extension
